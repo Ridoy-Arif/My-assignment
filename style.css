@@ -124,4 +124,20 @@
 
     /* container-5 */
 
+
+    .container-5{
+        display: flex;
+        
+        align-items: center;
+    }
+
+    .container-5 .img-2{
+        display: inline-block;
+        margin-top: 60px;
+    }
+
+    .container-5 .text-2{
+        margin-left: 50px;
+    }
+
     
