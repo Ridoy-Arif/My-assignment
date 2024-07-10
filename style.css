@@ -202,6 +202,37 @@
         margin-top: 80px;
      }
 
+     .parent-2 .one{
+        background-color: bisque;
+        padding: 15px;
+     }
+
+     .parent-2 .two{
+        background-color: azure;
+        padding-inline-start: 25px;
+     }
+
+     .parent-2 .three{
+        background-color: rgb(246, 244, 241);
+        padding-inline-start: 25px;
+     }
+
+     .parent-2 img{
+        display: inline-block;
+        margin-top: 10px;
+     }
+
+     .parent-2 h4{
+        
+        margin: 15px 0px;
+     }
+
+     .parent-2 h5{
+        
+        margin: 15px 0px;
+        text-decoration: underline 2px solid black;
+     }
+
 
 
      /* ..............footer */
@@ -252,11 +283,15 @@
         width: 500px;
         height: 30px;
         padding: 10px;
+        border: none;
+        border-radius: 5px;
      }
 
      .container-9 .input button{
         display: inline-block;
-        padding: 5px 10px;
+        padding: 8px 20px;
+        border-radius: 5px;
+        border: none;
      }
         
 
