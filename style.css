@@ -2,7 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
 
 
 .container-1{
@@ -177,5 +187,91 @@
 
      .paragraph{
         margin-top: 20px;
+     }
+
+     /* ...............container-8 */
+
+     .container-8 .text-part{
+        text-align: center;
+        margin-top: 80px;
+     }
+
+     .container-8 .parent-2{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+     }
+
+
+
+     /* ..............footer */
+
+     footer{
+        width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 80px;
+        background-image: url(./B10A1-Challenge-Begins/assets/handshake.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+     }
+
+
+     .foot-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        color: white;
+     }
+
+
+     /* container-9 */
+
+     .foot-sec h1 {
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: bolder;
+     }
+
+     .foot-sec p {
+        margin-bottom: 10px;
+        font-size: 15px;
+        font-weight: bold;
+     }
+
+
+     .container-9 .input{
+        margin-top: 15px;
+     }
+
+     .container-9 .input .field{
+        width: 500px;
+        height: 30px;
+        padding: 10px;
+     }
+
+     .container-9 .input button{
+        display: inline-block;
+        padding: 5px 10px;
+     }
+        
+
+     /* ............container-10 */
+
+
+     .container-10{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+     }
+
+
+     .container-10 img{
+        display: inline-block;
+        margin-left: 10px;
      }
     
